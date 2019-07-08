@@ -136,4 +136,4 @@ def plot_scatter_shape(auto_prices, cols, shape_col = 'fuel_type', col_y = 'log_
 num_cols = ['curb_weight', 'engine_size', 'horsepower', 'city_mpg']
 plot_scatter_shape(auto_prices, num_cols)   
 # relationships are more linear with log_price compared with price
-#auto_prices.to_csv('Auto_Data_Preped.csv', index = False, header = True)
+auto_prices.to_csv('Auto_Data_Preped.csv', index = False, header = True)
